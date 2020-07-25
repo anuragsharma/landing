@@ -1,0 +1,30 @@
+.card-trip {
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-top: 20px;
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.card-trip>img {
+  height: 100px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 1em auto;
+
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 1em auto;
+}
